@@ -1,8 +1,66 @@
 body {
     background-color: RGB(10, 10, 33);
     color: RGB(255, 255, 255);
+
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 h1 {
     text-align: center;
+    vertical-align: middle;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#user-input {
+    width: min(100vw, 450px);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: RGB(255, 255, 255);
+    padding-bottom: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+#user-input p {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#text-input {
+    width: 55%;
+    border: none;
+    border-bottom: 2px solid RGB(82, 12, 160);
+    height: 30px;
+}
+
+button {
+    background-color: RGB(82, 12, 160);
+    width: 90px; 
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
+
+#palindrome-definition {
+    width: min(100vw, 450px);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
