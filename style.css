@@ -28,8 +28,10 @@ h1 {
     margin-right: auto;
     background-color: RGB(255, 255, 255);
     padding-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     color: black;
+    margin-bottom: 35px;
+    box-shadow: 0 8px 10px rgba(15, 44, 158, .85);
 }
 
 #user-input p {
@@ -63,4 +65,12 @@ button:hover {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: RGB(27, 70, 32);
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+#palindrome-definition p {
+    padding-right: 25px;
+    padding-left: 25px;
 }
